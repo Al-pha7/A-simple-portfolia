@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(17, 3, 36);
+    color: white;
+}
+
+nav{
+    color: white;
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding:8px;
+}
+nav a{
+    margin-left: 30px;
+    font-size: 23px;
+    color: white;
+}
+.page-1{
+    display: flex;
+    margin:100px;
+}
+.img> img{
+    border-radius: 50%;
+    height:500px;
+}
+.page-1 h1{
+    font-size: 50px;
+}
+.page-1 p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.page-1 button{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    width: 260px;
+    background-color: rgb(150, 155, 192);
+}
+#skl{
+    margin-top: 100px;
+}
+.tag{
+    text-align: center;
+    font-size: 40px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+}
+.skill{
+    margin:20px;
+    width:100px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px;
+    background-color: rgb(150, 155, 192);
+    border-radius: 20px;
+}
+#pjt{
+    margin-top: 200px;
+}
+ .project table{
+    margin: 50px 0px 50px;
+    border-style: solid;
+    width: 100%;
+ }
+ .project table tr, th ,td{
+    padding:20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgba(220, 18, 238, 0.35) 0px 5px 15px;
+ }
+ table tr, td>a{
+    color: white;
+ }
+ td>a:hover{
+    color:seagreen;
+ }
+
+footer{
+    box-shadow: rgba(220, 18, 238, 0.35) 0px 5px 15px;
+    margin: 100px 200px 0px;
+    padding:10px 20px 10px;
+}
+ footer form{
+    display: grid;
+}
+.contact{
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+input{
+    padding: 20px;
+    margin: 20px 70px 0px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+textarea{
+    padding: 40px;
+    margin: 20px 70px 0px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+form button{
+    margin: 20px 350px 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+}
